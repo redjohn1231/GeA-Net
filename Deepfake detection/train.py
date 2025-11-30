@@ -29,8 +29,8 @@ path_val = [path_val_fake,path_val_real]
 
 # Training configuration dictionary (example template)
 train_config = {
-    "height": None,          # Input image height 
-    "width": None,           # Input image width 
+    "height": 299,          # Input image height 
+    "width": 299,           # Input image width 
     "channel_1": None,       # Number of channels for branch 1 
     "channel_2": None,       # Number of channels for branch 2 
     "batch_size": None,      # Training batch size
@@ -78,5 +78,6 @@ train(pop,"GeA-Net")
 
 
     
+
 
 
