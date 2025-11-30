@@ -5,7 +5,7 @@ This repository contains the implementation of a deepfake detection method with 
 
 ## Repository Structure
 
-The repository is organized into two main folders: `Network_structure_search` and `Train`.
+The repository is organized into two main folders: `Network structure search` and `Deepfake detection`.
 
 ### Network structure search
 This folder contains scripts for automatically searching and optimizing the network structure.
