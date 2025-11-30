@@ -21,8 +21,8 @@ path_fit = [path_fit_fake,path_fit_real]
 
 # Training configuration dictionary (example template)
 train_config = {
-    "height": None,          # Input image height 
-    "width": None,           # Input image width 
+    "height": 299,          # Input image height 
+    "width": 299,           # Input image width 
     "channel_1": None,       # Number of channels for branch 1 
     "channel_2": None,       # Number of channels for branch 2 
     "batch_size": None,      # Training batch size
@@ -103,6 +103,7 @@ for each_generation in range(N_GENERATIONS):
         pop = evolution(pop, each_generation, 80, 60)
     else:
         pop = evolution(pop, each_generation, 60, 60)
+
 
 
 
