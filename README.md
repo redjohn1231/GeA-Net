@@ -39,7 +39,7 @@ This folder contains scripts for training the networks after structure search.
 
 ## Requirements
 
-- **Python**: 3.9 or higher  
+- **Python**: 3.9 
 - **TensorFlow**: 2.9.1  
 - **Keras**: 2.9.0 (included in TensorFlow 2.9.1)  
 - **NumPy**: 1.19.5  
