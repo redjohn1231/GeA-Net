@@ -42,7 +42,7 @@ train_config = {
 }
 
 def get_fitness(x_1,x_2,s): 
-    return project.classify(s,path_train,path_val,num_1=x_1,num_2=x_2,feature_len=50)
+    return project.classify(s,path_train,path_val,num_1=x_1,num_2=x_2,feature_len=50,train_config=train_config)
 
 def train(pop,s):
     for i in range(1):
@@ -78,4 +78,5 @@ train(pop,"GeA-Net")
 
 
     
+
 
